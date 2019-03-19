@@ -18,5 +18,3 @@ services:
       dockerfile: app.docker
     volumes:
       - ./:/var/www
-    links:
-      - db
